@@ -71,7 +71,7 @@ footer a {
 }
 
 #comingSoon{
-    background-image: url(background.png);
+    background-image: url(background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 750px;
@@ -165,5 +165,6 @@ footer a {
     font-size: 20px;
 
 }
+
 
 
