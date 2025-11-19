@@ -1,0 +1,166 @@
+/* Attributes */
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f2e5df;
+}
+
+footer{
+    background-color: #a96261;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    padding-bottom: 10px;
+}
+
+footer h4{
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+footer p{
+    margin-left: 15%;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: normal;
+
+}
+
+/* Classes */
+
+.textCenter{
+    text-align: center;
+}
+
+.icon {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px 30px;
+  padding: 20px 10%;
+  justify-content: center;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+/* Id's */
+
+#wrapper{
+    background-color: #fef9ee;
+    min-width: 700px;
+    max-width: 1024px;
+    box-shadow: 0 0 15px #828282;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#comingSoon{
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#centerMessage{
+    background-color: #fef9ee;
+    display: block;
+    margin: auto;
+    height: 450px;
+    width: 550px;
+    border-radius: 15px;
+    padding:20px;
+}
+
+#centerMessage img{
+    display: block;
+    margin: auto;
+}
+
+#centerMessage h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #8f4545;
+    letter-spacing: 1px;
+}
+
+#aboutMe{
+    background-color: #fdf8ee;
+    color: #8f4545;
+}
+
+#section-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+#section-title::before,
+#section-title::after {
+  content: "";
+  flex: 1;
+  border-bottom: 3px solid #d3a67b;
+  margin: 0 40px;
+}
+
+#section-title span {
+  padding: 0 5px;
+  font-family: Georgia, serif;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+
+#aboutMe h3{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #8f4545;
+}
+
+#aboutMe p{
+    color: #110f10;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 3%;
+}
+
+#services{
+    text-align: center;
+    background-color: #fef9ee;
+}
+
+#services figure{
+    display: inline-block;
+    width: 300px;
+}
+
+#services figure img {
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+#services figure figcaption{
+    font-size: 15px;
+}
+
+#services figure figcaption span{
+    color: #8f4545;
+    font-size: 20px;
+}
